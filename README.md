@@ -19,7 +19,7 @@ The examples cover prompt engineering, language models, document processing, emb
 - FAISS vector store
 - ChromaDB
 - Similarity search
-- Maximum Marginal Relevance
+- Maximum Marginal Relevance (MMR)
 - MultiQueryRetriever
 - Custom tools
 - DuckDuckGo search
@@ -92,6 +92,12 @@ On Windows PowerShell:
 venv\Scripts\activate
 ```
 
+On macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+
 ### 5. Install Dependencies
 
 ```bash
@@ -118,7 +124,7 @@ The exact filename may differ depending on the example.
 
 ## Models and Embeddings
 
-This repository mainly uses local Hugging Face models, including TinyLlama.
+This repository mainly uses local Hugging Face models, including **TinyLlama**.
 
 For text embeddings, the examples use Sentence Transformers models such as:
 
@@ -136,6 +142,7 @@ Some examples may download models from Hugging Face during the first run.
 - API keys and secret credentials are not included in this repository.
 - Virtual environments and downloaded model files are excluded from GitHub.
 - Local models may take additional time to download during the first run.
+- Some examples may require additional packages or configuration depending on the selected tool or model.
 
 ## Learning Objective
 
