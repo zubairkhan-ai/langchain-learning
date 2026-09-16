@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+old_langchain_env/
+.venv/
+
+# API keys and environment variables
+.env
+
+# Local vector databases
+chroma_db/
+faiss_db/
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+.idea/
+
+# Logs
+*.log

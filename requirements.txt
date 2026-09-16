@@ -1,0 +1,14 @@
+transformers
+torch
+langchain-core
+langchain-huggingface
+langchain-community
+langchain-classic
+sentence-transformers
+faiss-cpu
+chromadb
+ddgs
+python-dotenv
+beautifulsoup4
+requests
+pypdf
