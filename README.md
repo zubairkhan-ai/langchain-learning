@@ -62,3 +62,63 @@ langchain-learning/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+
+Installation
+1. Clone the Repository
+git clone https://github.com/zubairkhan-ai/langchain-learning.git
+2. Open the Project Folder
+cd langchain-learning
+3. Create a Virtual Environment
+python -m venv venv
+4. Activate the Virtual Environment
+
+On Windows PowerShell:
+
+venv\Scripts\activate
+5. Install Dependencies
+pip install -r requirements.txt
+Running the Examples
+
+Run any Python file from its relevant folder.
+
+For example:
+
+python retrieval/mmr_retrieval.py
+
+Another example:
+
+python langchain_tool_calling/react_agent.py
+
+The exact filename may differ depending on the example.
+
+Models and Embeddings
+
+This repository mainly uses local Hugging Face models, including TinyLlama.
+
+For text embeddings, the examples use Sentence Transformers models such as:
+
+sentence-transformers/all-MiniLM-L6-v2
+
+Some examples may download models from Hugging Face during the first run.
+
+Important Notes
+
+This repository contains educational practice code created while learning LangChain.
+
+Some examples require an internet connection.
+
+Some tools may require external API keys.
+
+API keys and secret credentials are not included in this repository.
+
+Virtual environments and downloaded model files are excluded from GitHub.
+
+Local models may take additional time to download during the first run.
+
+Learning Objective
+
+The purpose of this repository is to understand how LangChain can be used to build applications involving language models, retrieval systems, vector databases, tools, and agents.
+
+
+
